@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLの練習</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="navbar">
+        <img src="images/logo.jpg" class="logo">
+        <nav>
+          <ul id="menuList">
+            <li><a href="https://maplestory.nexon.co.jp/">MapleStory</a></li>
+            <li><a href="https://ava.pmang.jp/">Alliance of Valiant Arms</a></li>
+            <li><a href="https://discord.com/">Discord</a></li>
+            <li><a href="https://store.steampowered.com/?l=japanese">steam</a></li>
+          </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+          <h2>イントロの作成依頼<br>受け付けてます</h2>
+          <h3>YouTubeなどでも使えるレベルです</h3>
+          <p>下のDiscordに例をおいときます</p>
+          <h4>COVID-1246</h4>
+            <a href="https://discord.gg/yFdqKMwDW3">
+            <button type="button" name="button">Join<img src="images/arrow.jpg">
+            </button>
+            </a>
+        </div>
+        <div class="col-2">
+            <img src="images/controller.png" class="controller">
+            <div class="color-box"></div>
+            <div class="add-btn">
+              <a href="https://forms.gle/39seNJ9jJTE2vrtW8">
+              <img src="images/add.png">
+              </a>
+              <p><small>イントロ作成依頼</small></p>
+            </div>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/">
+        <img src="images/fb.png">
+        </a>
+        <a href="https://twitter.com/home">
+        <img src="images/tw.png">
+        </a>
+        <a href="https://www.instagram.com/">
+        <img src="images/ig.png">
+        </a>
+      </div>
+  </div>
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if( menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px";
+                }
+            else
+                {
+                  menuList.style.maxHeight = "0px";
+                }
+        }
+
+    </script>
+問い合わせDiscord<b>2z2zz#2833</b>です。
+</html>
